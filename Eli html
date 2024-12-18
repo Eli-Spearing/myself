@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Eli's Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <img src="https://lh3.googleusercontent.com/-rPpRzWErpPo/AAAAAAAAAAI/AAAAAAAAAAA/ALKGfkmhmsWCioqSx8Qr4Qm8k7hRFZzK5Q/photo.jpg?sz=46" alt="Eli's photo">
+    
+    <h1>Eli's Website</h1>
+    <h2>Aspiring Violinist, Student, Coder</h2>
+    
+    <p>
+        Welcome to my world! I'm Elijah, a creator passionate about media, design, and storytelling. 
+        Whether you're here for podcast editing, web design, or just to see what I'm up to, I'm excited to connect with you! 
+        Check out my latest projects, resources, and more below. Let's create something amazing together!<br>
+    </p>
+    <h2>Follow me on:</h2>
+<a href="https://open.spotify.com/user/31dvg6wjtgrl5roopiyfypqshuqe?si=4b07203a5f3b4f78"> Spotify</a><br>
+<a href="https://www.duolingo.com/profile/Elinspearing">Duolingo</a><br>
+<a href="https://www.youtube.com/@EliSpearing"> Youtube</a><br>
+<h1>Check Out This Cool Video!</h1>
+
+    <!-- Embed the YouTube video -->
+    <iframe width="560" height="315" src="https://youtu.be/XwemdCalfQE?si=fZurakuy8hJQDGEr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>
+    // This function changes the background color of the page when the button is clicked
+    function changeBackgroundColor() {
+        const colors = ['#f4f4f4', '#ffeb3b', '#8bc34a', '#2196f3', '#9c27b0'];
+        // Randomly select a color from the array
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+        // Apply the selected color as the background
+        document.body.style.backgroundColor = randomColor;
+    }
+</script>
+</body>
+</html>
